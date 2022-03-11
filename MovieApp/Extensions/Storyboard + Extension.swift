@@ -5,4 +5,11 @@
 //  Created by Aleksandr Bagdasaryan on 09.03.22.
 //
 
-import Foundation
+import UIKit
+
+
+extension UIStoryboard {
+    @nonobjc class var main: UIStoryboard {
+        UIStoryboard(name: Storyboard.main, bundle: nil)
+    }
+}

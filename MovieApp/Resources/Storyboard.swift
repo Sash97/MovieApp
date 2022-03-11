@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+
+struct Storyboard {
+    static let main = "Main"
+}

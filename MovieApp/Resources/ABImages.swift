@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+
+struct ABImages {
+    static let shimmer = "shimmer"
+}

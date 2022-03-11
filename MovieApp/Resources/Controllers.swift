@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+
+struct Controllers {
+    static let navigation = "ABNavigationController"
+    static let home = "HomeController"
+}
